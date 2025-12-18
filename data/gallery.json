@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "src": "assets/gallery/poi_01.jpg",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_02.jpg",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_03.jpg",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/moment_01.jpg",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_02.jpg",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_03.jpg",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_04.jpg",
+      "tag": "Moments"
+    }
+  ]
+}
