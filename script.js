@@ -3,7 +3,7 @@
  * Replace PAYMENT_URL with your real checkout link (Stripe/PayPal/etc.).
  * If you use Stripe Payment Links, paste the subscription link here.
  */
-const PAYMENT_URL = "https://example.com/your-checkout-link";
+const PAYMENT_URL = "https://paypal.me/KoleCacho";
 
 const el = (id) => document.getElementById(id);
 
