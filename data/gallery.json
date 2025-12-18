@@ -1,0 +1,58 @@
+{
+  "title": "Gallery",
+  "subtitle": "Server screenshots, POIs, events, and highlights.",
+  "images": [
+    {
+      "src": "assets/gallery/poi_01.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_02.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_03.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_04.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_05.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_06.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_07.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_08.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/poi_09.webp",
+      "tag": "POI"
+    },
+    {
+      "src": "assets/gallery/moment_01.webp",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_02.webp",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_03.webp",
+      "tag": "Moments"
+    },
+    {
+      "src": "assets/gallery/moment_04.webp",
+      "tag": "Moments"
+    }
+  ]
+}
