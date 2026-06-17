@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RatKingGaming | Xbox DayZ Community</title>
+  <meta name="description" content="RatKingGaming Xbox DayZ server hub: trader network, survival handbook, Icelands, community clips, events, and Discord." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav" id="topNav">
+    <a class="brand" href="#home"><span class="crown">♛</span><span>RatKingGaming</span></a>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#trader" data-i18n="navTrader">Trader Network</a>
+      <a href="#handbook" data-i18n="navHandbook">Survival Handbook</a>
+      <a href="#tips" data-i18n="navTips">Tips</a>
+      <a href="#clips" data-i18n="navClips">Clips</a>
+      <a href="#support" data-i18n="navSupport">Support</a>
+      <a href="https://discord.gg/dxdx98RkkS" target="_blank" class="nav-cta" data-i18n="joinDiscord">Join Discord</a>
+      <div class="lang" aria-label="Language selector">
+        <button data-lang="en" class="active">EN</button><button data-lang="es">ES</button><button data-lang="ru">RU</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <img src="assets/images/hero-banner.jpg" alt="RatKingGaming banner" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow" data-i18n="eyebrow">Xbox DayZ • Trader Network • Custom POIs</p>
+        <h1 data-i18n="heroTitle">Join the Rat Pack. Rule the Wasteland.</h1>
+        <p class="hero-text" data-i18n="heroText">Your RatKingGaming hub for trader extracts, survival guides, community clips, events, and server updates.</p>
+        <div class="hero-actions">
+          <a href="https://discord.gg/dxdx98RkkS" target="_blank" class="btn primary" data-i18n="joinRatPack">🐀 Join The Rat Pack</a>
+          <a href="#trader" class="btn" data-i18n="viewTrader">🏪 View Trader Network</a>
+          <a href="#handbook" class="btn" data-i18n="openHandbook">📚 Open Handbook</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats reveal">
+      <div><b>2x</b><span data-i18n="statLoot">Loot</span></div>
+      <div><b>24/7</b><span data-i18n="statPvp">PvP</span></div>
+      <div><b>RKG</b><span data-i18n="statTrader">Trader Extracts</span></div>
+      <div><b>5x</b><span data-i18n="statBunkers">Bunker Loot</span></div>
+      <div><b>EN/ES/RU</b><span data-i18n="statLang">Translation Ready</span></div>
+    </section>
+
+    <section id="trader" class="section reveal">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="traderEyebrow">Green smoke means movement</p>
+        <h2 data-i18n="traderTitle">Trader Travel Network</h2>
+        <p data-i18n="traderDesc">Use marked extraction locations around Chernarus to travel to the trader. Some are quiet. Some are death traps. Choose your route wisely.</p>
+      </div>
+      <div class="grid cards">
+        <article class="card hot"><img src="assets/images/cherno-trader.jpg" alt="Chernogorsk trader extract"><div><span class="tag danger">Extreme</span><h3>Chernogorsk</h3><p data-i18n="cherno">Major urban submarine route. Danger at every corner.</p></div></article>
+        <article class="card"><img src="assets/images/sitnik-trader.jpg" alt="Sitnik trader extract"><div><span class="tag danger">High</span><h3>Sitnik</h3><p data-i18n="sitnik">High-traffic submarine extract with open water approaches.</p></div></article>
+        <article class="card"><img src="assets/images/berezhino-trader.jpg" alt="Berezhino trader extract"><div><span class="tag danger">High</span><h3>Berezhino</h3><p data-i18n="berezhino">Strategic harbor route with heavy PvP activity.</p></div></article>
+        <article class="card"><img src="assets/images/solnechny-trader.jpg" alt="Solnechny trader extract"><div><span class="tag medium">Medium</span><h3>Solnechny</h3><p data-i18n="solnechny">Coastal tactical extract with good visibility and ambush risk.</p></div></article>
+        <article class="card hot"><img src="assets/images/elektro-trader.jpg" alt="Elektrozavodsk trader extract"><div><span class="tag danger">Urban Hot Zone</span><h3>Elektrozavodsk</h3><p data-i18n="elektro">Vehicle smuggler route near one of the busiest cities.</p></div></article>
+        <article class="card hot"><img src="assets/images/west-airfield-trader.jpg" alt="West Airfield trader extract"><div><span class="tag danger">Military</span><h3>West Airfield</h3><p data-i18n="airfield">Critical military extraction zone. Only the best make it out.</p></div></article>
+        <article class="card"><img src="assets/images/east-devils-castle-trader.jpg" alt="East Devil's Castle trader extract"><div><span class="tag medium">Decision Zone</span><h3>East Devil's Castle</h3><p data-i18n="devils">Field or forest. Every path can become a trap.</p></div></article>
+        <article class="card"><img src="assets/images/north-vyshnoye-trader.jpg" alt="North Vyshnoye trader extract"><div><span class="tag medium">Hidden</span><h3>North Vyshnoye</h3><p data-i18n="vyshnoye">A quiet forest escape or a deadly close-range ambush.</p></div></article>
+      </div>
+    </section>
+
+    <section id="handbook" class="section handbook reveal">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="handbookEyebrow">The smart rats survive</p>
+        <h2 data-i18n="handbookTitle">Rat King's Survival Handbook</h2>
+        <p data-i18n="handbookDesc">Quick visual guides for sickness, broken legs, blood, base building, fishing, shelters, storage, weapons, and rangefinding.</p>
+      </div>
+      <div class="feature-split">
+        <a class="guide" href="assets/images/diseases-guide.jpg" target="_blank"><img src="assets/images/diseases-guide.jpg" alt="Diseases and illnesses guide"><h3 data-i18n="diseases">Diseases & Illnesses</h3><p data-i18n="clickZoom">Click to open full size.</p></a>
+        <a class="guide" href="assets/images/broken-legs-guide.jpg" target="_blank"><img src="assets/images/broken-legs-guide.jpg" alt="Broken legs guide"><h3 data-i18n="brokenLegs">Broken Legs & Recovery</h3><p data-i18n="clickZoom">Click to open full size.</p></a>
+      </div>
+      <a class="wide-guide" href="assets/images/survival-handbook-grid.jpg" target="_blank"><img src="assets/images/survival-handbook-grid.jpg" alt="Survival handbook grid"><div><h3 data-i18n="fullGuide">Full Survival Guide Wall</h3><p data-i18n="fullGuideDesc">Rangefinder, medicine, storage, shelters, weapons, base building, fishing, and blood guide all in one.</p></div></a>
+    </section>
+
+    <section id="tips" class="section reveal">
+      <div class="section-head"><p class="eyebrow" data-i18n="tipsEyebrow">DayZ Academy</p><h2 data-i18n="tipsTitle">Tips & Tricks</h2></div>
+      <div class="tip-grid">
+        <div class="tip"><b>01</b><h3 data-i18n="tip1Title">Never trust green smoke.</h3><p data-i18n="tip1">It marks a route, not safety. Scout hills, roofs, and treelines before moving in.</p></div>
+        <div class="tip"><b>02</b><h3 data-i18n="tip2Title">Carry medicine before PvP.</h3><p data-i18n="tip2">Vitamins, tetra, charcoal, bandages, and splints save runs more than extra loot.</p></div>
+        <div class="tip"><b>03</b><h3 data-i18n="tip3Title">Travel light to trader routes.</h3><p data-i18n="tip3">Heavy bags slow you down and turn every open field into a gamble.</p></div>
+        <div class="tip"><b>04</b><h3 data-i18n="tip4Title">Use overwatch.</h3><p data-i18n="tip4">One player watches while the other approaches. Solo players should move slow and quiet.</p></div>
+      </div>
+    </section>
+
+    <section id="clips" class="section reveal">
+      <div class="section-head"><p class="eyebrow" data-i18n="clipsEyebrow">Community highlights</p><h2 data-i18n="clipsTitle">Rat Pack Clips</h2><p data-i18n="clipsDesc">Add YouTube, Twitch, or Xbox clip links here. Replace the placeholders in index.html with real player submissions.</p></div>
+      <div class="video-grid">
+        <div class="video-card"><div class="video-placeholder">▶</div><h3 data-i18n="clip1">Featured Rat of the Week</h3><p data-i18n="clipDesc">PvP wipes, trader escapes, funny moments, and event wins.</p></div>
+        <div class="video-card"><div class="video-placeholder">▶</div><h3 data-i18n="clip2">KOTH & Events</h3><p data-i18n="clipDesc2">Show off winners and community battles.</p></div>
+        <div class="video-card"><div class="video-placeholder">▶</div><h3 data-i18n="clip3">Fails & Funny Moments</h3><p data-i18n="clipDesc3">Vehicle chaos, ambushes gone wrong, and Rat Pack memories.</p></div>
+      </div>
+    </section>
+
+    <section id="support" class="section support reveal">
+      <div class="support-box">
+        <p class="eyebrow" data-i18n="supportEyebrow">Keep the server alive</p>
+        <h2 data-i18n="supportTitle">Support RatKingGaming</h2>
+        <p data-i18n="supportDesc">Donations help with server costs, events, custom content, and community upgrades. Donations do not guarantee PvP advantages, admin favoritism, or pay-to-win rewards.</p>
+        <div class="hero-actions">
+          <a href="https://www.paypal.com/paypalme/REPLACE-ME" target="_blank" class="btn primary" data-i18n="paypal">💜 Donate with PayPal</a>
+          <a href="https://discord.gg/dxdx98RkkS" target="_blank" class="btn" data-i18n="joinDiscord">Join Discord</a>
+        </div>
+        <div class="donor-wall"><h3 data-i18n="donorWall">👑 Rat Pack Supporters</h3><p data-i18n="donorPlaceholder">Add supporter names here when you are ready.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <b>RatKingGaming</b><span data-i18n="footer">Join the Rat Pack. Rule the Wasteland.</span>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
